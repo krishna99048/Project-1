@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Books | Library Management System</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-indigo-700 text-white shadow">
+    <div class="container mx-auto px-5 py-4 flex justify-between items-center">
+      <a href="index.html" class="text-2xl font-bold">Library Management System</a>
+      <nav class="space-x-4">
+        <a href="home.html" class="hover:text-indigo-200">Home</a>
+        <a href="about.html" class="hover:text-indigo-200">About Us</a>
+        <a href="books.html" class="hover:text-indigo-200 font-semibold">Books</a>
+        <a href="contact.html" class="hover:text-indigo-200">Contact</a>
+        <a href="login.html" class="hover:text-indigo-200 font-semibold">Login</a>
+        <a href="signup.html" class="hover:text-indigo-200 font-semibold">Sign Up</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Page Title -->
+  <section class="bg-indigo-100 py-10 text-center">
+    <h1 class="text-4xl font-bold text-indigo-700">Available Books</h1>
+    <p class="mt-2 text-gray-600">Browse and explore our library collection</p>
+  </section>
+
+  <!-- Books Section -->
+  <section class="py-12">
+    <div class="container mx-auto px-5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+
+      <!-- Book Card -->
+      <div class="bg-white rounded shadow hover:shadow-lg transition">
+        <img src="https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg"
+             class="h-48 w-full object-cover rounded-t">
+        <div class="p-4">
+          <h3 class="text-lg font-bold">The Great Gatsby</h3>
+          <p class="text-sm text-gray-600">Author: F. Scott Fitzgerald</p>
+          <p class="mt-2 text-sm">Category: Fiction</p>
+          <button class="mt-4 bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded w-full">
+            View Details
+          </button>
+        </div>
+      </div>
+
+      <!-- Book Card -->
+      <div class="bg-white rounded shadow hover:shadow-lg transition">
+        <img src="https://images.pexels.com/photos/46274/pexels-photo-46274.jpeg"
+             class="h-48 w-full object-cover rounded-t">
+        <div class="p-4">
+          <h3 class="text-lg font-bold">Clean Code</h3>
+          <p class="text-sm text-gray-600">Author: Robert C. Martin</p>
+          <p class="mt-2 text-sm">Category: Programming</p>
+          <button class="mt-4 bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded w-full">
+            View Details
+          </button>
+        </div>
+      </div>
+
+      <!-- Book Card -->
+      <div class="bg-white rounded shadow hover:shadow-lg transition">
+        <img src="https://images.pexels.com/photos/590493/pexels-photo-590493.jpeg"
+             class="h-48 w-full object-cover rounded-t">
+        <div class="p-4">
+          <h3 class="text-lg font-bold">Data Structures</h3>
+          <p class="text-sm text-gray-600">Author: Mark Allen Weiss</p>
+          <p class="mt-2 text-sm">Category: Computer Science</p>
+          <button class="mt-4 bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded w-full">
+            View Details
+          </button>
+        </div>
+      </div>
+
+      <!-- Book Card -->
+      <div class="bg-white rounded shadow hover:shadow-lg transition">
+        <img src="https://images.pexels.com/photos/256559/pexels-photo-256559.jpeg"
+             class="h-48 w-full object-cover rounded-t">
+        <div class="p-4">
+          <h3 class="text-lg font-bold">History of Time</h3>
+          <p class="text-sm text-gray-600">Author: Stephen Hawking</p>
+          <p class="mt-2 text-sm">Category: Science</p>
+          <button class="mt-4 bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded w-full">
+            View Details
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-indigo-800 text-white text-center p-6">
+    © 2025 Library Management System
+  </footer>
+
+</body>
+</html>
